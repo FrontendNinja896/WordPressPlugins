@@ -1,0 +1,18 @@
+@keyframes ButtonAnim {
+    10%{
+        background-color: #025df0;
+        text-decoration: var(--Underline--);
+    }
+    30%{
+        background-color: #ff0505;
+        text-decoration: var(--Underline--);
+    }
+    50%{
+        background-color: #83ff08;
+        text-decoration: var(--Underline--);
+    }
+    100%{
+        background-color: #00fbff;
+        text-decoration: var(--Underline--);
+    }
+}

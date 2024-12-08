@@ -1,0 +1,15 @@
+:root{
+    --display--:flex;
+    --width--:100%;
+    --cursor--:pointer;
+    --centerItems--:center;
+    --FontWeight--:bolder;
+    --TenPercentage--:10%;
+    --ColumnDirection--:column;
+    --border--:2px solid silver;
+    --FirstColor--:#489DFF;
+    --SecondColor--:#a232a8;
+    --HueRotate--:hue-rotate(90deg);
+    --Underline--: underline;
+    --Zero--:0;
+}

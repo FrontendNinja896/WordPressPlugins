@@ -1,0 +1,84 @@
+*{
+    margin: var(--Zero--);
+    padding: var(--Zero--);
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    display: var(--display--);
+    width: var(--width--);
+    height: 210px;
+    border-bottom: var(--border--);
+    flex-direction: var(--ColumnDirection--);
+    align-items: var(--centerItems--);
+}
+header img{
+    width: var(--TenPercentage--);
+}
+.flex1 p:nth-child(2),.flex2 p:nth-child(2){
+    font-size: 20px;
+}
+.flex2 p:nth-child(3),.flex1 p:nth-child(3){
+    color: var(--FirstColor--);
+    font-size: 16px;
+    font-weight: var(--FontWeight--);
+}
+.flex1,.flex2{
+    display: var(--display--);
+    flex-direction: row;
+    justify-content: var(--centerItems--);
+}
+.flex1 button,.flex2 button{
+    width: 141px;
+    height: 38px;
+    background-color: var(--FirstColor--);
+    border: var(--Zero--);
+    color: #FFFF;
+    border-radius: 7px;
+    cursor: var(--cursor--);
+}
+.flex1 button:hover,.flex2 button:hover{
+    background-color: var(--SecondColor--);
+    color: #0ac782;
+    animation-name: ButtonAnim;
+    animation-delay: var(--Zero--);
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+footer{
+    width: var(--width--);
+    display: var(--display--);
+    border-top: var(--border--);
+    height: 136px;
+    flex-direction: var(--ColumnDirection--);
+    justify-content: var(--centerItems--);
+    align-items: var(--centerItems--);
+    gap: var(--TenPercentage--);
+}
+.Facebook,.Pinterest,.In,.Instagramm,.Twitter{
+    cursor: var(--cursor--);
+}
+.PopularWordpress{
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    margin-right: var(--TenPercentage--);
+    font-style: italic;
+}
+.outlookcom{
+    color: var(--FirstColor--);
+    font-weight: var(--FontWeight--);
+}
+.SocialIcons{
+    display: var(--display--);
+    gap: var(--TenPercentage--);
+}
+.Facebook:hover,.Pinterest:hover,.In:hover,.Instagramm:hover,.Twitter:hover{
+    color: var(--SecondColor--);
+    filter: var(--HueRotate--);
+}
+.RubIcon:hover,.Camera:hover,.Generator:hover,.Creator:hover{
+    background-color: #d700fc;
+    filter: var(--HueRotate--);
+}
